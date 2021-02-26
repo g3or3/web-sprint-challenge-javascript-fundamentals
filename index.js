@@ -144,8 +144,20 @@ function greeting(first, last){
   
 // 🦁💪 Stretch: If you haven't already, convert your array method callbacks into arrow functions - make sure you comment out this section before you submit your work 🦁💪
 
+/* Wanted to play around with reduce a little more so I tried to makeshit my own reduce method which works but only with limited functionality :) */
 
 
+// Array.prototype.reduce2 = function(accum=0, curVal=this[0], curIndex=0, initVal=0) {
+//   if(initVal !== 0 && accum === 0) accum = initVal
+//   if (curIndex === this.length) return accum
+//   accum = accum + this.reduce2(this[curIndex], this[curIndex + 1], curIndex + 1, initVal)
+//   return accum;
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.reduce2());                    // 15
+// console.log(arr.reduce2(0, arr[2], 2));        // 12
+// console.log(arr.reduce2(0, arr[0], 0, 5));     // 20
 
 
 // 🐴🐴🐴 Topic 3: Prototypes 🐴🐴🐴 //
