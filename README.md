@@ -28,15 +28,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
-
+    .forEach will iterate through each element in the array it is called on however the return value of .forEach is undefined because it does not return a new array like .map does.
 2. Explain the difference between a callback and a higher order function.
-
+    A callback function is a function that is passed as an argument to a higher order function in order to be used within.
 3. What is closure?
-
+    A closure is when you have nested functions within each other where the nested functions have access to the variables in the outer functions scope but not vise versa.
 4. Describe the four rules of the 'this' keyword.
-
+    The first rule is that any time 'this' is used outside the scope of an object it refers to the global object which is window in the browser. The second rule is implicit binding that means whenever 'this' is used inside of a new object, it refers to the new object that is being created. If you are calling a function as a method using dot notation the 'this' refers to the object on the left of the call. The third rule is explicit binding which applies whenever you are using functions like call, apply, or bind where the 'this' will apply to the object that is passed as an argument to these functions. The fourth rule is for when the new keyword is used where the 'this' keyword applies to the new object being created.
 5. Why do we need super() in an extended class?
-
+    The function super() is used to "inherit" the attributes of the parent when using the constructor function inside of the child class being created.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
